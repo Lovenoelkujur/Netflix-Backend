@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 // Link Frontend ( Cors )
 const corsOption = {
-    origin : "http://localhost:3000",
+    origin : "https://netflix-frontend-puce.vercel.app",
     credentials : true,
 }
 
